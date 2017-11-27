@@ -22,8 +22,6 @@ BEGIN
         until (des>=2) AND (des<=12);}
         randomize;
         des := random(11)+2;
-        writeln(des);
-        readln();
         pos := pos+des;
         IF (pos MOD MULTIPLE = 0) AND (pos < CASE_FIN - MULTIPLE) AND (pos > 1) THEN
             pos := pos + des;
