@@ -1,6 +1,6 @@
 ALGO jeu_de_loie
 
-BUT : Réplique le jeu de l'oie 
+BUT : Réplique le jeu de l'oie
 ENTREES: le résultat des jets de dé du joueur
 SORTIES: Le numéro de la case où se trouve le joueur et, lorsque le joueur gagne ou recommence, un message approprié.
 
