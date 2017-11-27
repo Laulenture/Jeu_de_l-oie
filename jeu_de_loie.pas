@@ -30,7 +30,6 @@ BEGIN
         IF pos = CASE_MORT THEN
             BEGIN       
                 writeln('PAS DE CHANCE, RETOUR AU DEBUT');
-                readln();
                 pos := 0;
             END;
         readln();
