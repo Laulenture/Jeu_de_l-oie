@@ -1,4 +1,4 @@
-﻿program jeu_de_loie;
+program jeu_de_loie;
 
 uses crt;
 
@@ -16,10 +16,12 @@ BEGIN
     repeat
         clrscr;
         writeln('Vous êtes à la case ',pos);
-        repeat
+        {repeat
             writeln('Entrez le résultat de vos dés');
             readln(des);
-        until (des>=2) AND (des<=12);
+        until (des>=2) AND (des<=12);}
+        randomize;
+        des := random(11)+2;
         pos := pos+des;
         IF (pos MOD MULTIPLE = 0) AND (pos < CASE_FIN - MULTIPLE) AND (pos > 1) THEN
             pos := pos + des;
