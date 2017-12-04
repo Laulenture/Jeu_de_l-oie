@@ -1,4 +1,4 @@
-program jeu_de_loie;
+﻿program jeu_de_loie;
 
 uses crt;
 
